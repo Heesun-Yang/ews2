@@ -1,0 +1,7 @@
+20170213 10:01:02 Version 0.4.22 20161110
+20170213 10:01:02 [A113] Counter Collector Started (#5)
+20170213 10:01:03 [A119] Agent UDP local.port=0
+20170213 10:01:03 [A10] host agent boot seed=x1phsqfpf91
+20170213 10:01:03 [A01] Scouter Host Agent Version 0.4.22 20161110
+20170213 10:01:03 [INFO] Num of Cpu Cores : 2
+20170214 00:00:00 [A130] TCP unknown cmd=OBJECT_RESET_CACHE

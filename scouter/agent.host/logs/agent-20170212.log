@@ -1,0 +1,21 @@
+20170212 00:00:02 [A130] TCP unknown cmd=OBJECT_RESET_CACHE
+20170212 09:07:19 [A120] UDP
+java.io.IOException: Network is unreachable
+	java.net.PlainDatagramSocketImpl.send(Native Method)
+	java.net.DatagramSocket.send(DatagramSocket.java:676)
+	scouter.agent.netio.data.net.DataUdpAgent.write(DataUdpAgent.java:129)
+	scouter.agent.netio.data.DataProxy.sendHeartBeat(DataProxy.java:117)
+	scouter.agent.counter.task.AgentHeartBeat.alive(AgentHeartBeat.java:53)
+	sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:601)
+	scouter.agent.counter.CounterExecutingManager$Invocation.process(CounterExecutingManager.java:93)
+	scouter.agent.counter.CounterExecutingManager.run(CounterExecutingManager.java:58)
+20170212 09:07:19 [A123] UDP
+java.io.IOException: Network is unreachable
+	java.net.PlainDatagramSocketImpl.send(Native Method)
+	java.net.DatagramSocket.send(DatagramSocket.java:676)
+	scouter.agent.netio.data.net.DataUdpAgent.write(DataUdpAgent.java:200)
+	scouter.agent.netio.data.DataProxy.sendDirect(DataProxy.java:88)
+	scouter.agent.netio.data.DataProxy.sendCounter(DataProxy.java:110)
+	scouter.agent.counter.CounterExecutingManager.run(CounterExecutingManager.java:66)
