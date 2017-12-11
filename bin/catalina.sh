@@ -97,6 +97,9 @@
 # $Id: catalina.sh 1202062 2011-11-15 06:50:02Z mturk $
 # -----------------------------------------------------------------------------
 
+SCOUTER_AGENT_DIR=/opt/scouter/agent.java' /opt/jboss-ews-2.0/tomcat7/bin/catalina.sh 
+JAVA_OPTS=" ${JAVA_OPTS} -javaagent:${SCOUTER_AGENT_DIR}/scouter.agent.jar"' /opt/jboss-ews-2.0/tomcat7/bin/catalina.sh
+
 # OS specific support.  $var _must_ be set to either true or false.
 cygwin=false
 darwin=false
