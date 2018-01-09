@@ -4,7 +4,7 @@
   
 JMX_OPTS=" -Dcom.sun.management.jmxremote \
  -Dcom.sun.management.jmxremote.authenticate=false \
- -Djava.rmi.server.hostname=jmx-route-hhi.ocp.seoul.test.rockplace.co.kr \
+ -Djava.rmi.server.hostname=10.10.99.240 \
  -Dcom.sun.management.jmxremote.port=10030 \
  -Dcom.sun.management.jmxremote.rmi.port=10030 \
  -Dcom.sun.management.jmxremote.ssl=false \
