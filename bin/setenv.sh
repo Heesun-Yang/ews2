@@ -4,7 +4,7 @@
   
 JMX_OPTS=" -Dcom.sun.management.jmxremote \
  -Dcom.sun.management.jmxremote.authenticate=false \
- -Djava.rmi.server.hostname=10.10.99.240 \
+ -Djava.rmi.server.hostname=52.78.92.167 \
  -Dcom.sun.management.jmxremote.port=10030 \
  -Dcom.sun.management.jmxremote.rmi.port=10030 \
  -Dcom.sun.management.jmxremote.ssl=false \
